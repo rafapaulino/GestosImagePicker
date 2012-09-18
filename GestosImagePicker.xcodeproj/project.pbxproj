@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A01014616089F6E00B7AAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014516089F6E00B7AAD6 /* UIKit.framework */; };
+		6A01014816089F6E00B7AAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014716089F6E00B7AAD6 /* Foundation.framework */; };
+		6A01014A16089F6E00B7AAD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014916089F6E00B7AAD6 /* CoreGraphics.framework */; };
+		6A01015016089F6E00B7AAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A01014E16089F6E00B7AAD6 /* InfoPlist.strings */; };
+		6A01015216089F6E00B7AAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01015116089F6E00B7AAD6 /* main.m */; };
+		6A01015616089F6E00B7AAD6 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01015516089F6E00B7AAD6 /* PrincipalAppDelegate.m */; };
+		6A01015916089F6E00B7AAD6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A01015716089F6E00B7AAD6 /* MainStoryboard.storyboard */; };
+		6A01015C16089F6E00B7AAD6 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01015B16089F6E00B7AAD6 /* PrincipalViewController.m */; };
+		6A01016416089F6E00B7AAD6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01016316089F6E00B7AAD6 /* SenTestingKit.framework */; };
+		6A01016516089F6E00B7AAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014516089F6E00B7AAD6 /* UIKit.framework */; };
+		6A01016616089F6E00B7AAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014716089F6E00B7AAD6 /* Foundation.framework */; };
+		6A01016E16089F6E00B7AAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A01016C16089F6E00B7AAD6 /* InfoPlist.strings */; };
+		6A01017116089F6E00B7AAD6 /* GestosImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01017016089F6E00B7AAD6 /* GestosImagePickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A01016716089F6E00B7AAD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A01013816089F6E00B7AAD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A01014016089F6E00B7AAD6;
+			remoteInfo = GestosImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A01014116089F6E00B7AAD6 /* GestosImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestosImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A01014516089F6E00B7AAD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A01014716089F6E00B7AAD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A01014916089F6E00B7AAD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A01014D16089F6E00B7AAD6 /* GestosImagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestosImagePicker-Info.plist"; sourceTree = "<group>"; };
+		6A01014F16089F6E00B7AAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A01015116089F6E00B7AAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A01015316089F6E00B7AAD6 /* GestosImagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestosImagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		6A01015416089F6E00B7AAD6 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A01015516089F6E00B7AAD6 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A01015816089F6E00B7AAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A01015A16089F6E00B7AAD6 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A01015B16089F6E00B7AAD6 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A01016216089F6E00B7AAD6 /* GestosImagePickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestosImagePickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A01016316089F6E00B7AAD6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A01016B16089F6E00B7AAD6 /* GestosImagePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestosImagePickerTests-Info.plist"; sourceTree = "<group>"; };
+		6A01016D16089F6E00B7AAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A01016F16089F6E00B7AAD6 /* GestosImagePickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestosImagePickerTests.h; sourceTree = "<group>"; };
+		6A01017016089F6E00B7AAD6 /* GestosImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestosImagePickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A01013E16089F6E00B7AAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01014616089F6E00B7AAD6 /* UIKit.framework in Frameworks */,
+				6A01014816089F6E00B7AAD6 /* Foundation.framework in Frameworks */,
+				6A01014A16089F6E00B7AAD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A01015E16089F6E00B7AAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01016416089F6E00B7AAD6 /* SenTestingKit.framework in Frameworks */,
+				6A01016516089F6E00B7AAD6 /* UIKit.framework in Frameworks */,
+				6A01016616089F6E00B7AAD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A01013616089F6E00B7AAD6 = {
+			isa = PBXGroup;
+			children = (
+				6A01014B16089F6E00B7AAD6 /* GestosImagePicker */,
+				6A01016916089F6E00B7AAD6 /* GestosImagePickerTests */,
+				6A01014416089F6E00B7AAD6 /* Frameworks */,
+				6A01014216089F6E00B7AAD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A01014216089F6E00B7AAD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A01014116089F6E00B7AAD6 /* GestosImagePicker.app */,
+				6A01016216089F6E00B7AAD6 /* GestosImagePickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A01014416089F6E00B7AAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A01014516089F6E00B7AAD6 /* UIKit.framework */,
+				6A01014716089F6E00B7AAD6 /* Foundation.framework */,
+				6A01014916089F6E00B7AAD6 /* CoreGraphics.framework */,
+				6A01016316089F6E00B7AAD6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A01014B16089F6E00B7AAD6 /* GestosImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6A01015416089F6E00B7AAD6 /* PrincipalAppDelegate.h */,
+				6A01015516089F6E00B7AAD6 /* PrincipalAppDelegate.m */,
+				6A01015716089F6E00B7AAD6 /* MainStoryboard.storyboard */,
+				6A01015A16089F6E00B7AAD6 /* PrincipalViewController.h */,
+				6A01015B16089F6E00B7AAD6 /* PrincipalViewController.m */,
+				6A01014C16089F6E00B7AAD6 /* Supporting Files */,
+			);
+			path = GestosImagePicker;
+			sourceTree = "<group>";
+		};
+		6A01014C16089F6E00B7AAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A01014D16089F6E00B7AAD6 /* GestosImagePicker-Info.plist */,
+				6A01014E16089F6E00B7AAD6 /* InfoPlist.strings */,
+				6A01015116089F6E00B7AAD6 /* main.m */,
+				6A01015316089F6E00B7AAD6 /* GestosImagePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A01016916089F6E00B7AAD6 /* GestosImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A01016F16089F6E00B7AAD6 /* GestosImagePickerTests.h */,
+				6A01017016089F6E00B7AAD6 /* GestosImagePickerTests.m */,
+				6A01016A16089F6E00B7AAD6 /* Supporting Files */,
+			);
+			path = GestosImagePickerTests;
+			sourceTree = "<group>";
+		};
+		6A01016A16089F6E00B7AAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A01016B16089F6E00B7AAD6 /* GestosImagePickerTests-Info.plist */,
+				6A01016C16089F6E00B7AAD6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A01014016089F6E00B7AAD6 /* GestosImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A01017416089F6E00B7AAD6 /* Build configuration list for PBXNativeTarget "GestosImagePicker" */;
+			buildPhases = (
+				6A01013D16089F6E00B7AAD6 /* Sources */,
+				6A01013E16089F6E00B7AAD6 /* Frameworks */,
+				6A01013F16089F6E00B7AAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestosImagePicker;
+			productName = GestosImagePicker;
+			productReference = 6A01014116089F6E00B7AAD6 /* GestosImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A01016116089F6E00B7AAD6 /* GestosImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A01017716089F6E00B7AAD6 /* Build configuration list for PBXNativeTarget "GestosImagePickerTests" */;
+			buildPhases = (
+				6A01015D16089F6E00B7AAD6 /* Sources */,
+				6A01015E16089F6E00B7AAD6 /* Frameworks */,
+				6A01015F16089F6E00B7AAD6 /* Resources */,
+				6A01016016089F6E00B7AAD6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A01016816089F6E00B7AAD6 /* PBXTargetDependency */,
+			);
+			name = GestosImagePickerTests;
+			productName = GestosImagePickerTests;
+			productReference = 6A01016216089F6E00B7AAD6 /* GestosImagePickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A01013816089F6E00B7AAD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A01013B16089F6E00B7AAD6 /* Build configuration list for PBXProject "GestosImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A01013616089F6E00B7AAD6;
+			productRefGroup = 6A01014216089F6E00B7AAD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A01014016089F6E00B7AAD6 /* GestosImagePicker */,
+				6A01016116089F6E00B7AAD6 /* GestosImagePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A01013F16089F6E00B7AAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01015016089F6E00B7AAD6 /* InfoPlist.strings in Resources */,
+				6A01015916089F6E00B7AAD6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A01015F16089F6E00B7AAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01016E16089F6E00B7AAD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A01016016089F6E00B7AAD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A01013D16089F6E00B7AAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01015216089F6E00B7AAD6 /* main.m in Sources */,
+				6A01015616089F6E00B7AAD6 /* PrincipalAppDelegate.m in Sources */,
+				6A01015C16089F6E00B7AAD6 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A01015D16089F6E00B7AAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01017116089F6E00B7AAD6 /* GestosImagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A01016816089F6E00B7AAD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A01014016089F6E00B7AAD6 /* GestosImagePicker */;
+			targetProxy = 6A01016716089F6E00B7AAD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A01014E16089F6E00B7AAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A01014F16089F6E00B7AAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A01015716089F6E00B7AAD6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A01015816089F6E00B7AAD6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A01016C16089F6E00B7AAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A01016D16089F6E00B7AAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A01017216089F6E00B7AAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A01017316089F6E00B7AAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A01017516089F6E00B7AAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestosImagePicker/GestosImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "GestosImagePicker/GestosImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A01017616089F6E00B7AAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestosImagePicker/GestosImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "GestosImagePicker/GestosImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A01017816089F6E00B7AAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestosImagePicker.app/GestosImagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestosImagePicker/GestosImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "GestosImagePickerTests/GestosImagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A01017916089F6E00B7AAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestosImagePicker.app/GestosImagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestosImagePicker/GestosImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "GestosImagePickerTests/GestosImagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A01013B16089F6E00B7AAD6 /* Build configuration list for PBXProject "GestosImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01017216089F6E00B7AAD6 /* Debug */,
+				6A01017316089F6E00B7AAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A01017416089F6E00B7AAD6 /* Build configuration list for PBXNativeTarget "GestosImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01017516089F6E00B7AAD6 /* Debug */,
+				6A01017616089F6E00B7AAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A01017716089F6E00B7AAD6 /* Build configuration list for PBXNativeTarget "GestosImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01017816089F6E00B7AAD6 /* Debug */,
+				6A01017916089F6E00B7AAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A01013816089F6E00B7AAD6 /* Project object */;
+}
