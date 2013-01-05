@@ -20,6 +20,8 @@
 		6A01016616089F6E00B7AAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01014716089F6E00B7AAD6 /* Foundation.framework */; };
 		6A01016E16089F6E00B7AAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A01016C16089F6E00B7AAD6 /* InfoPlist.strings */; };
 		6A01017116089F6E00B7AAD6 /* GestosImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01017016089F6E00B7AAD6 /* GestosImagePickerTests.m */; };
+		6A01017C1608B65700B7AAD6 /* ImagemGiraEstica.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01017B1608B65700B7AAD6 /* ImagemGiraEstica.m */; };
+		6A0EF6DD1609F1D000D17CD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0EF6DC1609F1D000D17CD8 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		6A01016D16089F6E00B7AAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A01016F16089F6E00B7AAD6 /* GestosImagePickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestosImagePickerTests.h; sourceTree = "<group>"; };
 		6A01017016089F6E00B7AAD6 /* GestosImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestosImagePickerTests.m; sourceTree = "<group>"; };
+		6A01017A1608B65700B7AAD6 /* ImagemGiraEstica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagemGiraEstica.h; sourceTree = "<group>"; };
+		6A01017B1608B65700B7AAD6 /* ImagemGiraEstica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagemGiraEstica.m; sourceTree = "<group>"; };
+		6A0EF6DC1609F1D000D17CD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0EF6DD1609F1D000D17CD8 /* QuartzCore.framework in Frameworks */,
 				6A01014616089F6E00B7AAD6 /* UIKit.framework in Frameworks */,
 				6A01014816089F6E00B7AAD6 /* Foundation.framework in Frameworks */,
 				6A01014A16089F6E00B7AAD6 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,7 @@
 		6A01013616089F6E00B7AAD6 = {
 			isa = PBXGroup;
 			children = (
+				6A0EF6DC1609F1D000D17CD8 /* QuartzCore.framework */,
 				6A01014B16089F6E00B7AAD6 /* GestosImagePicker */,
 				6A01016916089F6E00B7AAD6 /* GestosImagePickerTests */,
 				6A01014416089F6E00B7AAD6 /* Frameworks */,
@@ -116,6 +123,8 @@
 				6A01015716089F6E00B7AAD6 /* MainStoryboard.storyboard */,
 				6A01015A16089F6E00B7AAD6 /* PrincipalViewController.h */,
 				6A01015B16089F6E00B7AAD6 /* PrincipalViewController.m */,
+				6A01017A1608B65700B7AAD6 /* ImagemGiraEstica.h */,
+				6A01017B1608B65700B7AAD6 /* ImagemGiraEstica.m */,
 				6A01014C16089F6E00B7AAD6 /* Supporting Files */,
 			);
 			path = GestosImagePicker;
@@ -262,6 +271,7 @@
 				6A01015216089F6E00B7AAD6 /* main.m in Sources */,
 				6A01015616089F6E00B7AAD6 /* PrincipalAppDelegate.m in Sources */,
 				6A01015C16089F6E00B7AAD6 /* PrincipalViewController.m in Sources */,
+				6A01017C1608B65700B7AAD6 /* ImagemGiraEstica.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +445,7 @@
 				6A01017616089F6E00B7AAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A01017716089F6E00B7AAD6 /* Build configuration list for PBXNativeTarget "GestosImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +454,7 @@
 				6A01017916089F6E00B7AAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
